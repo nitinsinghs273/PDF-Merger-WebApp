@@ -1,0 +1,19 @@
+{
+  "name": "pdf-merger-webapp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "esm": "^3.2.25",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "pdf-merger-js": "^5.1.2"
+  }
+}
